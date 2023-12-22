@@ -19,7 +19,7 @@ program
   .name("url-debugger")
   .description("CLI to debug URLs saved in a CSV file")
   .version("1.0.0")
-  .argument("<CSV file path>", "Example file at FILL URL")
+  .argument("<CSV file path>", "Example file at https://raw.githubusercontent.com/santiago-rodrig/url-debugger/main/sample-input.csv")
   .argument(
     "[JSON file path]",
     "A path to a JSON file to be created",
