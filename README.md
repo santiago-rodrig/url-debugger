@@ -10,13 +10,13 @@ of this tool.
 
 ## Building the tool
 
-You have two options.
+Go and pick the right binary file from the list in the
+[available releases](https://github.com/santiago-rodrig/url-debugger/releases)
+of this tool.
 
-1. Build the binary yourself.
-2. Download the binary from the available releases.
+## Building the tool
 
-If you decide to go ahead with **option 1** you must
-install the dependencies first with `npm install`.
+You must install the dependencies first with `npm install`.
 Once you have the dependencies ready you must
 run the `build` script with the build target of your
 computer, the following example is for building

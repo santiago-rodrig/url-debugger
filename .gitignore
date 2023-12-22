@@ -3,3 +3,4 @@ testdata
 .vscode
 bundles
 bin
+.DS_Store
