@@ -8,13 +8,7 @@ Go and pick the right binary file from the list in the
 [available releases](https://github.com/santiago-rodrig/url-debugger/releases)
 of this tool.
 
-## Building the tool
-
-Go and pick the right binary file from the list in the
-[available releases](https://github.com/santiago-rodrig/url-debugger/releases)
-of this tool.
-
-## Building the tool
+## Building process
 
 You must install the dependencies first with `npm install`.
 Once you have the dependencies ready you must
@@ -29,7 +23,7 @@ npm run build -- -t node18-linux-amd64
 
 You will see the binary at `bin/url-debugger.exe`.
 
-## Developing the tool locally
+## Developing locally
 
 Just run `npm install`. After that start by
 reading `src/main.js`, extend that if you wish.
