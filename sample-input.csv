@@ -1,0 +1,2 @@
+name,url
+test1,https://dev.id-envs.nbcuni.com/websdk/v2/authenticate/?native=false&useBaseSdkLocation=false&version=2&thirdPartyBrand=undefined&checkoutEnabled=false&configLocationHost=https://dev-id.nbc.com/websdk/config&debug=false&env=dev&redirectUrl=https://dev-profile.id-envs.nbcuni.com/my-account&language=en&key=gpm&clientId=NBCUID&email=undefined&defaultPage=undefined&&referringPage=nbc-web-sdk-sample&registrationReferrer=None&defaultPage=logIn&crossDomain=true&codeChallenge=522B8JmmamvbjeFxfi5Okh_uq9OYzkTU6-ME81rkwS0

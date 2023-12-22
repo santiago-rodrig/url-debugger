@@ -1,0 +1,26 @@
+{
+  "test1": {
+    "origin": "https://dev.id-envs.nbcuni.com",
+    "path": "/websdk/v2/authenticate/",
+    "query": {
+      "native": "false",
+      "useBaseSdkLocation": "false",
+      "version": "2",
+      "thirdPartyBrand": "undefined",
+      "checkoutEnabled": "false",
+      "configLocationHost": "https://dev-id.nbc.com/websdk/config",
+      "debug": "false",
+      "env": "dev",
+      "redirectUrl": "https://dev-profile.id-envs.nbcuni.com/my-account",
+      "language": "en",
+      "key": "gpm",
+      "clientId": "NBCUID",
+      "email": "undefined",
+      "defaultPage": "logIn",
+      "referringPage": "nbc-web-sdk-sample",
+      "registrationReferrer": "None",
+      "crossDomain": "true",
+      "codeChallenge": "522B8JmmamvbjeFxfi5Okh_uq9OYzkTU6-ME81rkwS0"
+    }
+  }
+}
