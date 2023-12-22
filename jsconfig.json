@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "checkJs": false,
+    "baseUrl": "./src"
+  }
+}
