@@ -60,8 +60,8 @@ program
     let records = [];
     const parser = parse({ columns: true, skip_empty_lines: true });
     parser.on("readable", () => {
-      let record = parser.read();
-      while (record !== null) {
+      let record;
+      while ((record = parser.read()) !== null) {
         records.push(record);
       }
     });
@@ -102,10 +102,7 @@ program
       }
       logger.info("Created JSON file with parsed URLs");
     });
-    const csvFileLines = csvFileContents.split("\n");
-    csvFileLines.forEach((line) => {
-      parser.write(line);
-    });
+    parser.write(csvFileContents)
     parser.end();
   })
   .parse();
